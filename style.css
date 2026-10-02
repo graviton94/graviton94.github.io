@@ -1,0 +1,13 @@
+:root{--paper:#F6F1E6;--ink:#33281F;--soft:#6B6456;--line:#33281F24;--moss:#5F7236}
+@media (prefers-color-scheme: dark){:root{--paper:#151A28;--ink:#ECE4CF;--soft:#B3AC9C;--line:#ECE4CF26;--moss:#A9BC84}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:"Noto Serif KR","Nanum Myeongjo","Apple SD Gothic Neo",serif;line-height:1.75;padding:40px 18px 64px}
+main{max-width:680px;margin:0 auto}
+h1{font-size:1.6rem;line-height:1.35;margin:0 0 6px}
+h2{font-size:1.15rem;margin:40px 0 10px;padding-top:18px;border-top:1px solid var(--line)}
+p,li{font-size:1rem}
+ul{padding-left:1.2em}
+li{margin:6px 0}
+.soft{color:var(--soft);font-size:.92rem}
+a{color:var(--moss)}
+nav{font-size:.92rem;margin-bottom:28px}
