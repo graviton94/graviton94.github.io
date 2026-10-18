@@ -16,8 +16,8 @@ GitHub Pages 가 `main` 을 그대로 보여 줘요. 작업 브랜치에서 고�
 ## 앱별로 할 일
 ### 하루의 정원 · Carpe Diem (CARPEDIEM 세션)
 - 개인정보처리방침은 `/carpediem/privacy/` 로 옮겼다. 옛 주소 `/privacy/` 는 새 주소로 넘겨 주는 페이지로 남아 있어 Play Console 주소가 깨지지 않지만, 앱 안 링크 · Play Console 은 새 주소로 바꾼다.
-- 소개 페이지 `/carpediem/` 를 만든다 (하루의 성경 `/todaybible/` 과 같은 모양). 만들면 첫 화면 링크에 ‘소개’를 더한다.
-- 스토어에 공개되면 첫 화면에 Google Play 링크 (`https://play.google.com/store/apps/details?id=io.github.graviton94.carpediem`).
+- 소개 페이지 `/carpediem/` (2026-10-18, 1.1.8 기준): 대표 그림 · 화면 넷 (`carpediem/img/`, 앱 저장소 `docs/store/` 에서) · 기능 · 응원하기 가격 · 출처. 첫 화면에 소개 · Google Play 링크.
+- 기능 · 가격 · 마음 가짓수가 바뀌면 `/carpediem/` 도 같이 고친다.
 - 아이콘이 바뀌면 `icons/carpediem.png` (128px) 를 바꾼다.
 
 ### 하루의 성경 · Bible by Hand (TODAYBIBLE 세션)
