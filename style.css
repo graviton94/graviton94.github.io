@@ -11,3 +11,14 @@ li{margin:6px 0}
 .soft{color:var(--soft);font-size:.92rem}
 a{color:var(--moss)}
 nav{font-size:.92rem;margin-bottom:28px}
+.site{display:flex;justify-content:space-between;align-items:baseline;font-size:.88rem;color:var(--soft);border-bottom:1px solid var(--line);padding-bottom:10px;margin-bottom:28px}
+.site a{color:var(--soft);text-decoration:none}
+.site b{color:var(--ink);font-weight:600}
+.apps{list-style:none;padding:0;margin:8px 0 0}
+.apps li{display:flex;gap:14px;align-items:flex-start;border-top:1px solid var(--line);padding:18px 0;margin:0}
+.apps img{width:52px;height:52px;border-radius:12px;flex:none}
+.apps h2{border:0;margin:0;padding:0;font-size:1.08rem}
+.apps p{margin:2px 0 6px}
+.links{font-size:.9rem}
+footer{margin-top:44px;padding-top:14px;border-top:1px solid var(--line);font-size:.86rem;color:var(--soft)}
+footer a{color:var(--soft)}
