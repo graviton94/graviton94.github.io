@@ -1,0 +1,29 @@
+# 앱 담당 세션에게: graviton94.github.io 에 맞출 것
+
+이 저장소는 앱 3종의 공식 홈페이지 **당신의 하루 · Your Day** (https://graviton94.github.io/) 예요.
+GitHub Pages 가 `main` 을 그대로 보여 줘요. 작업 브랜치에서 고치고 PR 로 `main` 에 합쳐요.
+
+## 공통 틀 (모든 페이지)
+- `<link rel="stylesheet" href="(위로)/style.css">` 를 쓴다. 색 · 글꼴은 style.css 한 곳에서.
+- `<main>` 바로 안 맨 위에 사이트 머리:
+  `<div class="site"><a href="(사이트 맨 위)"><b>당신의 하루 · Your Day</b></a><span><a href="mailto:ruahn49@gmail.com">문의 · Contact</a></span></div>`
+- `</main>` 바로 앞에 꼬리:
+  `<footer>문의 · Contact <a href="mailto:ruahn49@gmail.com">ruahn49@gmail.com</a> · <a href="(사이트 맨 위)about/">운영 원칙 · About</a></footer>`
+- 한국어 먼저, 그 아래 `id="en"` 영어. 이모지 없이, 짧게.
+- 첫 화면(index.html)의 앱 줄: 아이콘(`icons/<앱>.png`, 128px) · 이름 · 한 줄 소개 · 링크(소개 · 개인정보처리방침 · 이용약관 · 출처 · Google Play 중 있는 것만).
+- 운영 원칙(`about/`)에 앱별 원칙이 생기면 그 앱 이름을 붙여 한 줄 더한다.
+
+## 앱별로 할 일
+### 하루의 정원 · Carpe Diem (CARPEDIEM 세션)
+- 개인정보처리방침은 `/carpediem/privacy/` 로 옮겼다. 옛 주소 `/privacy/` 는 새 주소로 넘겨 주는 페이지로 남아 있어 Play Console 주소가 깨지지 않지만, 앱 안 링크 · Play Console 은 새 주소로 바꾼다.
+- 소개 페이지 `/carpediem/` 를 만든다 (하루의 성경 `/todaybible/` 과 같은 모양). 만들면 첫 화면 링크에 ‘소개’를 더한다.
+- 스토어에 공개되면 첫 화면에 Google Play 링크 (`https://play.google.com/store/apps/details?id=io.github.graviton94.carpediem`).
+- 아이콘이 바뀌면 `icons/carpediem.png` (128px) 를 바꾼다.
+
+### 하루의 성경 · Bible by Hand (TODAYBIBLE 세션)
+- 아이콘은 사용자가 준 펜촉 · 십자가 그림으로 바꿨다 (`icons/todaybible.png`). 앱 아이콘과 다르면 앱 쪽을 확인.
+- 유료 기능이 생기면 이용약관 `/todaybible/terms/` 를 만들고 첫 화면 링크에 더한다.
+- 스토어에 공개되면 Google Play 링크 (`…?id=io.github.graviton94.todaybible`).
+
+### 언어 미술관 · Lingua Museum (todayletters 세션이 맡음)
+- 출처 페이지 `todayletters/index.html` 의 표시 사이(`<!-- sources:… -->`)는 앱 저장소의 `scripts/site_sources.py` 가 다시 쓴다. 손으로 고치지 않는다.
