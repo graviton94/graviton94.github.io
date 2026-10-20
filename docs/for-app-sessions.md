@@ -1,6 +1,6 @@
 # 앱 담당 세션에게: graviton94.github.io 에 맞출 것
 
-이 저장소는 앱 3종의 공식 홈페이지 **당신의 하루 · Your Day** (https://graviton94.github.io/) 예요.
+이 저장소는 앱 4종의 공식 홈페이지 **당신의 하루 · Your Day** (https://graviton94.github.io/) 예요.
 GitHub Pages 가 `main` 을 그대로 보여 줘요. 작업 브랜치에서 고치고 PR 로 `main` 에 합쳐요.
 
 ## 공통 틀 (모든 페이지)
@@ -24,6 +24,13 @@ GitHub Pages 가 `main` 을 그대로 보여 줘요. 작업 브랜치에서 고�
 - 아이콘은 사용자가 준 펜촉 · 십자가 그림으로 바꿨다 (`icons/todaybible.png`). 앱 아이콘과 다르면 앱 쪽을 확인.
 - 유료 기능이 생기면 이용약관 `/todaybible/terms/` 를 만들고 첫 화면 링크에 더한다.
 - 스토어에 공개되면 Google Play 링크 (`…?id=io.github.graviton94.todaybible`).
+
+### 방구뿡 · Pocket Toot (bgbb 세션)
+- 앱 저장소: `graviton94/bgbb` · 패키지 `io.github.graviton94.bgbb`.
+- 소개 `/bgbb/` · 개인정보처리방침 `/bgbb/privacy/` (2026-10-20, 1.0.0 기준). 화면 · 대표 그림은 앱 저장소 `docs/store/` 에서 `bgbb/img/` 로 (432×768 webp).
+- 앱 설정 화면의 링크가 `/bgbb/privacy/` 와 `/bgbb/#credits` 를 가리킨다. 주소를 바꾸면 앱도 같이 바꾼다.
+- 스토어에 공개되면 첫 화면 · 소개 페이지에 Google Play 링크 (`…?id=io.github.graviton94.bgbb`).
+- 권한 · 수집 정보가 바뀌면 개인정보처리방침을 먼저 고친다 (지금: 마이크는 녹음 버튼을 누를 때만, 전송 없음).
 
 ### 언어 미술관 · Lingua Museum (todayletters 세션이 맡음)
 - 출처 페이지 `todayletters/index.html` 의 표시 사이(`<!-- sources:… -->`)는 앱 저장소의 `scripts/site_sources.py` 가 다시 쓴다. 손으로 고치지 않는다.
