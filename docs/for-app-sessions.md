@@ -1,6 +1,6 @@
 # 앱 담당 세션에게: graviton94.github.io 에 맞출 것
 
-이 저장소는 앱 4종의 공식 홈페이지 **당신의 하루 · Your Day** (https://graviton94.github.io/) 예요.
+이 저장소는 앱 3종의 공식 홈페이지 **당신의 하루 · Your Day** (https://graviton94.github.io/) 예요.
 GitHub Pages 가 `main` 을 그대로 보여 줘요. 작업 브랜치에서 고치고 PR 로 `main` 에 합쳐요.
 
 ## 공통 틀 (모든 페이지)
@@ -26,6 +26,7 @@ GitHub Pages 가 `main` 을 그대로 보여 줘요. 작업 브랜치에서 고�
 - 스토어에 공개되면 Google Play 링크 (`…?id=io.github.graviton94.todaybible`).
 
 ### 방구뿡 · Pocket Toot (bgbb 세션)
+- **지금은 첫 화면 앱 목록에서 뺐다** (사용자 요청, 2026-10-21). `/bgbb/` 와 `/bgbb/privacy/` 페이지는 앱 안 링크가 깨지지 않게 그대로 두되 어디서도 링크하지 않는다. 다시 공개할 때 첫 화면 앱 줄을 되살린다.
 - 앱 저장소: `graviton94/bgbb` · 패키지 `io.github.graviton94.bgbb`.
 - 소개 `/bgbb/` · 개인정보처리방침 `/bgbb/privacy/` (2026-10-20, 1.0.0 기준). 화면 · 대표 그림은 앱 저장소 `docs/store/` 에서 `bgbb/img/` 로 (432×768 webp).
 - 앱 설정 화면의 링크가 `/bgbb/privacy/` 와 `/bgbb/#credits` 를 가리킨다. 주소를 바꾸면 앱도 같이 바꾼다.
