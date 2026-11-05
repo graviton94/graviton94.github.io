@@ -1,6 +1,6 @@
 # 앱 담당 세션에게: graviton94.github.io 에 맞출 것
 
-이 저장소는 앱 3종의 공식 홈페이지 **당신의 하루 · Your Day** (https://graviton94.github.io/) 예요.
+이 저장소는 앱 4종의 공식 홈페이지 **당신의 하루 · Your Day** (https://graviton94.github.io/) 예요.
 GitHub Pages 가 `main` 을 그대로 보여 줘요. 작업 브랜치에서 고치고 PR 로 `main` 에 합쳐요.
 
 ## 공통 틀 (모든 페이지)
@@ -27,3 +27,10 @@ GitHub Pages 가 `main` 을 그대로 보여 줘요. 작업 브랜치에서 고�
 
 ### 언어 미술관 · Lingua Museum (todayletters 세션이 맡음)
 - 출처 페이지 `todayletters/index.html` 의 표시 사이(`<!-- sources:… -->`)는 앱 저장소의 `scripts/site_sources.py` 가 다시 쓴다. 손으로 고치지 않는다.
+
+### 우리집요정 · Home Fairy (myhomes 세션)
+- 소개 `/homefairy/` · 개인정보처리방침과 계정 삭제 `/homefairy/privacy/` (2026-11-06). 앱 설정 › 정보에서 두 페이지로 연결된다.
+- 그림은 앱 저장소 `docs/store/` (골든 테스트 `test/goldens/store_shots_test.dart` 가 만듦) 를 432×768 webp 로 줄여 `homefairy/img/` 에 둔다.
+- 서버로 보내는 것이 바뀌면 (새 요정 기능, 새 외부 API) 개인정보처리방침을 같이 고친다.
+- 스토어에 공개되면 Google Play 링크 (`…?id=io.github.graviton94.homefairy`).
+
