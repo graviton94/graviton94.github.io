@@ -1,6 +1,6 @@
 # 앱 담당 세션에게: graviton94.github.io 에 맞출 것
 
-이 저장소는 앱 4종의 공식 홈페이지 **당신의 하루 · Your Day** (https://graviton94.github.io/) 예요.
+이 저장소는 앱 4종과 게임 1종의 공식 홈페이지 **당신의 하루 · Your Day** (https://graviton94.github.io/) 예요.
 GitHub Pages 가 `main` 을 그대로 보여 줘요. 작업 브랜치에서 고치고 PR 로 `main` 에 합쳐요.
 
 ## 공통 틀 (모든 페이지)
@@ -10,6 +10,7 @@ GitHub Pages 가 `main` 을 그대로 보여 줘요. 작업 브랜치에서 고�
 - `</main>` 바로 앞에 꼬리:
   `<footer>문의 · Contact <a href="mailto:ruahn49@gmail.com">ruahn49@gmail.com</a> · <a href="(사이트 맨 위)about/">운영 원칙 · About</a></footer>`
 - 한국어 먼저, 그 아래 `id="en"` 영어. 이모지 없이, 짧게.
+- 첫 화면(index.html)은 생활 앱 목록과 그 아래 **게임** 칸(제목 「게임」, 영어는 「Games」)으로 나뉜다. 게임은 게임 칸에만 넣는다.
 - 첫 화면(index.html)의 앱 줄: 아이콘(`icons/<앱>.png`, 128px) · 이름 · 한 줄 소개 · 링크(소개 · 개인정보처리방침 · 이용약관 · 출처 · Google Play 중 있는 것만).
 - 운영 원칙(`about/`)에 앱별 원칙이 생기면 그 앱 이름을 붙여 한 줄 더한다.
 
@@ -34,3 +35,9 @@ GitHub Pages 가 `main` 을 그대로 보여 줘요. 작업 브랜치에서 고�
 - 서버로 보내는 것이 바뀌면 (새 요정 기능, 새 외부 API) 개인정보처리방침을 같이 고친다.
 - 스토어에 공개되면 Google Play 링크 (`…?id=io.github.graviton94.homefairy`).
 
+### Pawnisher : Checkmate (게임 — pawnisher_checkmate 세션)
+- 첫 화면 **게임** 칸 (2026-11-19, 게임 저장소 D-639). 소개 `/pawnisher/` · 개인정보처리방침 `/pawnisher/privacy/`.
+- 처리방침 정본은 게임 저장소 `docs/legal/privacy-policy.md`(게임 안 글 `src/data/legal.ts`와 조항 수가 같다). 그 문서가 바뀌면 `/pawnisher/privacy/`를 같은 글로 다시 쓴다(조항 11개 · 한 · 영). 게임 안 설정 › 정보 › [웹에서 연다]가 `https://graviton94.github.io/pawnisher/privacy/`를 연다 — 주소를 옮기지 않는다.
+- 아이콘 `icons/pawnisher.png` 128px = 게임 저장소 `tools/app_icon.py`의 `compose(128)` (도트 판 62×61을 최근접 2배). 앱 아이콘이 바뀌면 같은 방법으로 다시 뽑는다.
+- 그림: `pawnisher/img/feature.webp` = 게임 `build-res/store/play-feature.png`, 화면 넷 = 실제 빌드 915×412(DPR 2)를 찍은 무손실 webp. 화면이 크게 바뀌면 다시 찍는다.
+- Steam판 · 통신 · 결제가 생기면 처리방침을 먼저 고친다. 스토어에 공개되면 Google Play 링크 (`…?id=io.github.graviton94.pawnisher`).
