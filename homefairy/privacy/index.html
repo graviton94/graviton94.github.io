@@ -6,13 +6,14 @@
 
 <nav><a href="#ko">한국어</a> · <a href="#en">English</a> · <a href="#delete">데이터 삭제 · Data deletion</a></nav>
 <h1>개인정보처리방침 · Privacy Policy</h1>
-<p class="soft">우리집요정 (Home Fairy) · 시행일 2026년 11월 20일 · Effective November 20, 2026</p>
+<p class="soft">우리집요정 (Home Fairy) · 시행일 2026년 11월 23일 · Effective November 23, 2026</p>
 
 <h2 id="ko">한국어</h2>
 <p>우리집요정은 집 안 물건이 어디 있는지 적어 두는 앱이에요. 계정 없이 쓰면 적은 것은 이 폰 안에만 있어요. 아래 기능을 쓸 때만, 그 기능에 필요한 만큼 폰 밖으로 나가요.</p>
 <ul>
 <li><b>폰 안에만:</b> 공간 · 보관함 · 물건 이름 · 수량 · 기한 · 메모 · 사진 · 기록 · 장보기 목록은 계정 없이 쓰면 이 폰에만 저장돼요.</li>
 <li><b>계정 (선택):</b> 카카오 또는 Google 로 로그인하면, 그 서비스가 알려 주는 회원 번호 · 별명 · 프로필 사진 주소를 Google Firebase 인증에 저장해요. 가족과 집을 함께 쓰고, 요정 기능의 사용량을 세는 데만 써요.</li>
+<li><b>계정 백업 (로그인한 경우):</b> 로그인하면 이 폰의 집 (공간 · 보관함 · 물건 · 작게 줄인 사진 · 최근 기록 · 장보기 목록) 이 그 계정에만 Google Firebase (미국 데이터 센터) 에 자동으로 백업돼요. 새 폰이나 다시 설치한 앱에서 같은 계정으로 로그인하면 집이 돌아와요. 로그인하지 않으면 서버에 아무것도 백업하지 않아요. 계정을 삭제하면 백업도 함께 지워져요.</li>
 <li><b>가족과 함께 쓰는 집 (선택):</b> 집을 함께 쓰면 그 집의 공간 · 물건 · 사진 · 기록 · 장보기 목록과 가족의 별명 · 프로필 사진이 Google Firebase (미국 데이터 센터) 에 저장되고, 그 집 가족에게만 보여요. 초대 코드는 24시간 뒤 쓸 수 없어요.</li>
 <li><b>요정 기능 (로그인 필요):</b> 이름 대신 설명으로 찾기, 새 물건의 종류 고르기, 영수증 정리, 사진으로 넣기를 쓸 때 그 글자 (검색어와 우리 집 물건 이름 목록, 영수증의 글자 줄) 또는 512px 로 줄인 사진 한 장이 우리 서버 (Google Cloud) 를 거쳐 판단 모델 서비스 (TypeSafe) 로 가서 답을 받아요. 답을 받은 뒤 저장하지 않아요. 단, 물건 이름과 그 종류는 누가 보냈는지 없이 다음 답을 빠르게 하려고 보관해요.</li>
 <li><b>바코드:</b> 식품 바코드를 찍으면 바코드 숫자만 우리 서버를 거쳐 식품의약품안전처 식품안전나라 공공 API 로 보내 상품 이름을 받아요. 바코드와 상품 이름은 누가 찍었는지 없이 보관해요.</li>
@@ -35,6 +36,7 @@
 <ul>
 <li><b>On your phone only:</b> without an account, spaces, storage spots, things (names, amounts, dates, notes, photos), history and the shopping list are stored on this phone only.</li>
 <li><b>Account (optional):</b> signing in with Kakao or Google stores the member number, nickname and profile photo address that service gives us in Google Firebase Authentication. It is used only to share a home with family and to count use of the fairy features.</li>
+<li><b>Account backup (when signed in):</b> while you are signed in, this phone's home (spaces, storage spots, things, small photos, recent history and shopping list) is backed up automatically to Google Firebase (US data centers), for your account only. Signing in with the same account on a new phone or after reinstalling brings it back. Nothing is backed up for guests. Deleting your account deletes the backup too.</li>
 <li><b>A home shared with family (optional):</b> a shared home's spaces, things, photos, history and shopping list, and the members' nicknames and profile photos, are stored in Google Firebase (US data centers) and shown only to that home's members. Invite codes expire after 24 hours.</li>
 <li><b>Fairy features (sign-in needed):</b> searching by description, guessing a new thing's kind, tidying a receipt and adding from a photo send that text (the search words and the names of things in your home, the receipt's text lines) or one photo shrunk to 512 px through our server (Google Cloud) to a decision model service (TypeSafe) for an answer. They are not stored afterwards, except that thing names and their kinds are kept, without who sent them, to answer faster next time.</li>
 <li><b>Barcodes:</b> scanning a food barcode sends only the barcode number through our server to the Korean Ministry of Food and Drug Safety's public API for the product name. Barcodes and product names are kept without who scanned them.</li>
@@ -56,14 +58,14 @@
 <p class="soft">우리집요정 (Home Fairy) · 개발자 JY Choi</p>
 <h3>한국어</h3>
 <ol>
-<li><b>앱에서 바로:</b> <b>설정 → 데이터 → 계정 삭제</b>를 누르면 계정, 서버의 내 정보 (프로필 · 알림 토큰 · 사용량), 그리고 나 혼자 쓰던 집의 서버 데이터가 바로 지워져요. 가족과 함께 쓰던 집은 나만 빠지고, 남은 가족의 것은 남아요.</li>
+<li><b>앱에서 바로:</b> <b>설정 → 데이터 → 계정 삭제</b>를 누르면 계정, 서버의 내 정보 (프로필 · 알림 토큰 · 사용량 · 계정 백업), 그리고 나 혼자 쓰던 집의 서버 데이터가 바로 지워져요. 가족과 함께 쓰던 집은 나만 빠지고, 남은 가족의 것은 남아요.</li>
 <li><b>앱 없이:</b> <a href="mailto:ruahn49@gmail.com?subject=%EC%9A%B0%EB%A6%AC%EC%A7%91%EC%9A%94%EC%A0%95%20%EA%B3%84%EC%A0%95%20%EC%82%AD%EC%A0%9C%20%EC%9A%94%EC%B2%AD">ruahn49@gmail.com</a> 으로 ‘계정 삭제 요청’과 로그인한 서비스 (카카오 · Google) 와 별명을 보내 주세요. 확인 뒤 30일 안에 위와 같이 지우고 회신해요.</li>
 <li><b>이 폰의 기록:</b> 폰 안의 물건 · 사진은 개발자가 갖고 있지 않아요. 앱을 지우거나 Android 설정에서 앱 데이터를 지우면 사라져요.</li>
 <li><b>남는 것:</b> 누가 보냈는지 없이 보관한 물건 이름 · 종류와 바코드 · 상품 이름, Crashlytics 오류 기록 (90일 뒤 자동 삭제), 산 요정 가루의 남은 양과 이번 달 요정 가루를 쓴 양 (누구인지 알 수 없게 바꾼 값, 같은 계정으로 다시 가입해 무료 양을 되받는 남용을 막는 데만 써요) 은 계정과 연결되지 않아요.</li>
 </ol>
 <h3>English</h3>
 <ol>
-<li><b>In the app:</b> <b>Settings → Data → Delete my account</b> deletes at once your account, your data on the server (profile, alert token, usage) and the server data of a home only you used. From a home shared with family, only you leave; the others' data stays.</li>
+<li><b>In the app:</b> <b>Settings → Data → Delete my account</b> deletes at once your account, your data on the server (profile, alert token, usage, account backup) and the server data of a home only you used. From a home shared with family, only you leave; the others' data stays.</li>
 <li><b>Without the app:</b> email <a href="mailto:ruahn49@gmail.com?subject=Home%20Fairy%20account%20deletion%20request">ruahn49@gmail.com</a> with "Account deletion request", the service you signed in with (Kakao or Google) and your nickname. After checking, it is deleted as above within 30 days, and you get a reply.</li>
 <li><b>Records on this phone:</b> the developer does not have the things and photos on your phone. Uninstalling the app or clearing its data in Android settings removes them.</li>
 <li><b>What stays:</b> thing names and kinds and barcodes and product names kept without who sent them, Crashlytics error logs (deleted automatically after 90 days), bought fairy dust that is left and this month's fairy dust count (stored under a one-way code that does not name you, used only to stop getting free dust again by deleting and re-joining) are not linked to your account.</li>
