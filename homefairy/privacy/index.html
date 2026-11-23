@@ -19,8 +19,8 @@
 <li><b>영수증 · 음성:</b> 영수증 글자 읽기는 폰 안 (Google ML Kit) 에서 해요. 말로 찾기는 폰의 음성 인식 서비스가 처리하고, 앱은 알아들은 글자만 받아 검색해요. 녹음은 저장하지 않아요.</li>
 <li><b>레시피 사진:</b> ‘뭐 해 먹지’에서 요리를 볼 때 식품안전나라 서버에서 사진을 받아요.</li>
 <li><b>알림:</b> 기한 · 돌려받기 · 사용 중 알림은 폰 안에서 만들어요. 가족 알림을 켜면 알림을 받을 기기 토큰과 언어를 계정에 저장해요.</li>
-<li><b>사용 통계:</b> 앱이 하루 한 번, 그날 넣은 물건 수 · 찾은 검색과 못 찾은 검색 수 · 집에 있는 물건 수 · 집 지도가 있는지 · 설치 후 며칠째인지를 숫자로만 우리 서버 (Google Firebase) 에 보내요. 물건 이름 · 검색어 · 계정 · 기기를 알 수 있는 값은 보내지 않고, 서버에는 날짜별 합계만 남아요. 앱을 더 쓰기 쉽게 고치는 데만 써요.</li>
-<li><b>오류 보고:</b> 앱이 멈추면 기기 모델 · Android 버전 · 앱 버전 · 오류 기록이 Google Firebase Crashlytics 로 가요. 물건 이름이나 사진은 담기지 않아요.</li>
+<li><b>사용 통계:</b> 앱이 하루 한 번, 그날 넣은 물건 수 · 찾은 검색과 못 찾은 검색 수 · 기능별로 쓴 횟수(영수증 · 사진 · 바코드 · 가족 초대 등) · 집에 있는 방 · 보관함 · 물건 수 · 집 지도가 있는지 · 설치 후 며칠째인지를 숫자로만 우리 서버 (Google Firebase) 에 보내요. 물건 이름 · 검색어 · 계정 · 기기를 알 수 있는 값은 보내지 않고, 서버에는 날짜별 합계만 남아요. 앱을 더 쓰기 쉽게 고치는 데만 써요.</li>
+<li><b>오류 보고:</b> 앱이 멈추거나 로그인 · 동기화 · 구매 같은 작업이 실패하면 기기 모델 · Android 버전 · 앱 버전 · 오류 종류가 Google Firebase Crashlytics 로 가요. 물건 이름이나 사진은 담기지 않아요.</li>
 <li><b>권한:</b> 마이크 (말로 찾기, 누를 때만), 카메라 (사진 · 바코드 · 영수증, 누를 때만), 알림. 위치 · 연락처는 쓰지 않아요.</li>
 <li><b>백업 파일:</b> ‘백업 파일 만들기’를 누르면 고른 곳에만 파일 하나로 저장돼요.</li>
 <li><b>구매 (선택):</b> 플러스나 요정 가루를 사면 결제는 Google Play 가 처리하고, 개발자는 카드 정보를 받지 않아요. 구매를 확인하려고 Google Play 가 준 구매 토큰과 무엇을 샀는지, 플러스가 언제까지인지를 우리 서버 (Google Firebase) 에 계정과 함께 보관해요.</li>
@@ -41,8 +41,8 @@
 <li><b>Receipts and voice:</b> receipt text is read on the phone (Google ML Kit). Voice search is handled by the phone's speech recognition service; the app only gets the recognized words to search. No recordings are kept.</li>
 <li><b>Recipe photos:</b> when you look at a dish in "What to cook", its photo is loaded from the FoodSafetyKorea server.</li>
 <li><b>Notifications:</b> date, return and in-use reminders are made on the phone. If you turn on family alerts, the device token for alerts and your language are stored with your account.</li>
-<li><b>Usage totals:</b> once a day the app sends plain numbers to our server (Google Firebase): how many things were added, how many searches found something or nothing, how many things are at home, whether the home has a map and how many days since install. No thing names, search words, account or device identifiers are sent, and the server keeps only totals per day. They are used only to make the app easier to use.</li>
-<li><b>Crash reports:</b> if the app crashes, device model, Android version, app version and the error log go to Google Firebase Crashlytics. They never include thing names or photos.</li>
+<li><b>Usage totals:</b> once a day the app sends plain numbers to our server (Google Firebase): how many things were added, how many searches found something or nothing, how many times each feature was used (receipts, photos, barcodes, family invites and so on), how many rooms, storage spots and things are at home, whether the home has a map and how many days since install. No thing names, search words, account or device identifiers are sent, and the server keeps only totals per day. They are used only to make the app easier to use.</li>
+<li><b>Crash reports:</b> if the app crashes or a task such as sign-in, syncing or a purchase fails, device model, Android version, app version and the error log go to Google Firebase Crashlytics. They never include thing names or photos.</li>
 <li><b>Permissions:</b> microphone (voice search, only when tapped), camera (photos, barcodes, receipts, only when tapped), notifications. No location or contacts.</li>
 <li><b>Backup files:</b> "Make a backup file" saves one file only where you choose.</li>
 <li><b>Purchases (optional):</b> if you buy Plus or fairy dust, Google Play handles the payment and the developer never gets card details. To check the purchase, the purchase token Google Play gives, what was bought and until when Plus is paid are stored with your account on our server (Google Firebase).</li>
