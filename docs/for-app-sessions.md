@@ -27,6 +27,7 @@ GitHub Pages 가 `main` 을 그대로 보여 줘요. 작업 브랜치에서 고�
 - 스토어에 공개되면 Google Play 링크 (`…?id=io.github.graviton94.todaybible`).
 
 ### 언어 미술관 · Lingua Museum (todayletters 세션이 맡음)
+- 공개 보류 중이에요. 재공개가 결정되면 Git 이력에서 소개, 정책, 편지 페이지와 아이콘을 복원한 뒤 첫 화면 링크를 다시 넣어요.
 - 출처 페이지 `todayletters/index.html` 의 표시 사이(`<!-- sources:… -->`)는 앱 저장소의 `scripts/site_sources.py` 가 다시 쓴다. 손으로 고치지 않는다.
 
 ### 우리집요정 · Home Fairy (myhomes 세션)
@@ -36,7 +37,7 @@ GitHub Pages 가 `main` 을 그대로 보여 줘요. 작업 브랜치에서 고�
 - 스토어에 공개되면 Google Play 링크 (`…?id=io.github.graviton94.homefairy`).
 
 ### Pawnisher : Checkmate (게임 — pawnisher_checkmate 세션)
-- 첫 화면 **게임** 칸 (2026-11-19, 게임 저장소 D-639). 소개 `/pawnisher/` · 개인정보처리방침 `/pawnisher/privacy/`.
+- 공개 보류 중이에요. 재공개가 결정되면 Git 이력에서 소개 `/pawnisher/`, 개인정보처리방침 `/pawnisher/privacy/`와 아이콘을 복원한 뒤 첫 화면 **게임** 칸에 링크를 다시 넣어요.
 - 처리방침 정본은 게임 저장소 `docs/legal/privacy-policy.md`(게임 안 글 `src/data/legal.ts`와 조항 수가 같다). 그 문서가 바뀌면 `/pawnisher/privacy/`를 같은 글로 다시 쓴다(조항 11개 · 한 · 영). 게임 안 설정 › 정보 › [웹에서 연다]가 `https://graviton94.github.io/pawnisher/privacy/`를 연다 — 주소를 옮기지 않는다.
 - 아이콘 `icons/pawnisher.png` 128px = 게임 저장소 `tools/app_icon.py`의 `compose(128)` (도트 판 62×61을 최근접 2배). 앱 아이콘이 바뀌면 같은 방법으로 다시 뽑는다.
 - 그림: `pawnisher/img/feature.webp` = 게임 `build-res/store/play-feature.png`, 화면 넷 = 실제 빌드 915×412(DPR 2)를 찍은 무손실 webp. 화면이 크게 바뀌면 다시 찍는다.
